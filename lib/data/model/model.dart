@@ -5,7 +5,6 @@ class Livro {
   int anoPublicacao;
   String genero;
   String sinopse;
-  String? capaUrl; // Opcional
   double avaliacao; // Avaliação de 1 a 5
   String usuarioId; // ID do usuário que adicionou o livro
   DateTime dataCadastro;
@@ -17,7 +16,6 @@ class Livro {
     required this.anoPublicacao,
     required this.genero,
     required this.sinopse,
-    this.capaUrl,
     required this.avaliacao,
     required this.usuarioId,
     required this.dataCadastro,
@@ -31,7 +29,6 @@ class Livro {
       'anoPublicacao': anoPublicacao,
       'genero': genero,
       'sinopse': sinopse,
-      'capaUrl': capaUrl,
       'avaliacao': avaliacao,
       'usuarioId': usuarioId,
       'dataCadastro': dataCadastro,

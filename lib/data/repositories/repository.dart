@@ -19,7 +19,6 @@ class LivroRepository {
         anoPublicacao: map['anoPublicacao'] ?? '',
         genero: map['genero'] ?? '',
         sinopse: map['sinopse'] ?? '',
-        capaUrl: map['capaUrl'] ?? '',
         avaliacao: map['avaliacao'] ?? '',
         usuarioId: map['usuarioId'] ?? '',
         dataCadastro: map['dataCadastro'] ?? '',
